@@ -1,5 +1,6 @@
-import Card from './card/card';
+
 import Header from './header/header';
+ import Basic from './table/Basic';
 import Title from './title/title';
 
 
@@ -8,12 +9,8 @@ function App() {
   return (
     <div className="App">
        <Header/>
-       <Title/>
-       <div className='card'>
-        <Card/>
-
-       </div>
-      
+       <Title/>  
+       <Basic/> 
     </div>
   );
 }

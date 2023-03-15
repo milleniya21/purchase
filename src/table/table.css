@@ -1,0 +1,20 @@
+
+table  {
+  width: 100%;
+  border-collapse: collapse;
+  border:1px solid rgb(143, 139, 139);
+  padding: 10px;
+  border-radius: 20px;
+}
+th , td
+{
+    border:1px solid rgb(143, 139, 139);
+    padding: 10px;
+}
+ th
+
+ {
+    background-color: white;
+    color: grey;
+    align-items: center;
+ }
